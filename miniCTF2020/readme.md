@@ -180,7 +180,8 @@ Bài này khi giải nén tệp map.rar ta được một list các folder 
 ![cmdmap](/miniCTF2020/writeupfiles/cmdmap.png)<br>
 - `grep` đối với Linux:<br>
 ![termap](/miniCTF2020/writeupfiles/terminalmap.png)<br>
-</br>
+</br>  
+
 Flag: `ispclub{n4hhh_1_g0t_c4tch3D}`
 </br>
 </br>
