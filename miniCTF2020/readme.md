@@ -8,6 +8,7 @@
 ![miniCTF firstlook](/miniCTF2020/logo.png)
 <br/>
 <br/>
+<br/>
 ### Overview
  | Title | Category | Points | Flag
  | ------ | ------ | ------ | ------ |
@@ -49,11 +50,11 @@ Flag: `ispclub{ISP_ru1n_th3_w0rLd}`
 Ta là Lươn. Ta không đánh giá cao ngươi, tuy vậy ta vẫn sẽ cho ngươi một cơ hội để có được kho báu. Gần đây Ki3nM1ddL3 mới được trải nghiệm cỗ máy thời gian, và hắn rất thích thú với mạng xã hội thời xưa là Facebook, vì vậy hắn đã lập một page cho tổ chức ISP trên đó. Hắn còn đăng bài khiêu khích thế giới rằng hắn nhiều của cải tới mức phát tán lung tung và để luôn 1 flag ở đó. Quay về quá khứ và đào mảnh flag đó lên!
 <br/>
 #### Solution
-Khi đọc thì ta có thể thấy là đề bài có các từ khóa ***Facebook***, ***page ISP***, nội dung minigame. Flag có thể sẽ liên quan đến một bài đăng nào đó về minigame trên [facebookfanpage của ISP](https://www.facebook.com/ATTT.PTIT). Sau khi tìm kiếm thì mình phát hiện ra bài [Open miniCTF](https://www.facebook.com/ATTT.PTIT/posts/3425688750875051) là có liên quan nhất đến các dữ kiện mà ta đã tìm được, hãy cùng xem xét nó 1 chút.
+Khi đọc thì ta có thể thấy là đề bài có các từ khóa ***Facebook***, ***page ISP***, nội dung minigame. Flag có thể sẽ liên quan đến một bài đăng nào đó về minigame trên [facebookfanpage của ISP](https://www.facebook.com/ATTT.PTIT). Sau khi tìm kiếm thì mình phát hiện ra bài [Open miniCTF](https://www.facebook.com/ATTT.PTIT/posts/3425688750875051) là có liên quan nhất đến các dữ kiện mà ta đã tìm được, hãy cùng xem xét nó 1 chút.<br>
 ![FBpost](/miniCTF2020/writeupfiles/opengamepost.png)
-Có vẻ là chúng ta không thấy điều gì có vẻ khả nghi ở đây cả. Đọc thật kỹ đề bài, ta sẽ thấy đề bài liên tục nhắc đến ***thời gian***, ***flag***. Facebook có 1 tính năng cho phép ta có thể xem được lịch sử đã chỉnh sửa của 1 bài viết, có vẻ flag sẽ được giấu ở đó. Hãy cùng kiểm tra edit history của post này!
+Có vẻ là chúng ta không thấy điều gì có vẻ khả nghi ở đây cả. Đọc thật kỹ đề bài, ta sẽ thấy đề bài liên tục nhắc đến ***thời gian***, ***flag***. Facebook có 1 tính năng cho phép ta có thể xem được lịch sử đã chỉnh sửa của 1 bài viết, có vẻ flag sẽ được giấu ở đó. Hãy cùng kiểm tra edit history của post này!<br>
 ![edit_history](/miniCTF2020/writeupfiles/edithistory.png)
-
+<br/>
 Quả nhiên flag được cài vào đây.
 Flag: `ispclub{b4k4_Ki3nM1ddL3}`
 <br/>
