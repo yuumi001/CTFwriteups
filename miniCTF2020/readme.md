@@ -335,6 +335,16 @@ Ki3nM1ddL3 mới tập lập trình Python và hắn nhận ra Python cũng có 
 #### Solution
 Bài này chỉ đơn giản là các ký tự trong flag đã được cộng thêm 160 và mình đã có chuỗi sau khi các ký tự được cộng với 160. Chỉ cần thực hiện lấy giá trị mỗi ký tự trừ đi 160 rồi in ra là ta sẽ có được flag rồi.  
   
+Script:  
+```python
+out = "265 275 272 259 268 277 258 283 211 257 275 281 255 274 209 263 264 276 223 285"
+arr = out.split()
+flag = ""
+for i in arr:
+	flag += chr(int(i)-160)
+print (flag)
+```  
+  
 Flag: `ispclub{3asy_r1ght?}`  
   
   
