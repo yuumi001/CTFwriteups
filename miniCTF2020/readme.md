@@ -173,14 +173,15 @@ Hôm nay tên ChickChick lại quỵt tiền ăn xiên bẩn của ta. Khi ta đ
 [file .rar](/miniCTF2020/writeupfiles/map.rar)
 <br/>
 #### Solution
-Bài này khi giải nén tệp map.rar ta được một list các folder và file nhỏ. Flag là một chuỗi ký tự vậy nên ta có thể thử dùng chức năng Search ở File Explorer để tìm toàn bộ file .txt `*.txt` cũng sẽ ra một vài file .txt và mở lần lượt sẽ thấy được flag.
-Đối với bài này thì phương pháp làm tay là 1 phương pháp không hiệu quả nếu phải tìm với số lượng lớn. Chúng ta sẽ dùng **CLI** (Command Line Interface) với các câu lệnh `findstr` hoặc `grep`. Về cơ bản thì mục đích sử dụng của 2 câu lệnh này là như nhau, dùng để tìm kiếm thông tin bên trong 1 file.
+Bài này khi giải nén tệp map.rar ta được một list các folder và file nhỏ. Flag là một chuỗi ký tự vậy nên ta có thể thử dùng chức năng Search ở File Explorer để tìm toàn bộ file .txt `*.txt` cũng sẽ ra một vài file .txt và mở lần lượt sẽ thấy được flag.  
+Đối với bài này thì phương pháp làm tay là 1 phương pháp không hiệu quả nếu phải tìm với số lượng lớn. Chúng ta sẽ dùng **CLI** (Command Line Interface) với các câu lệnh `findstr` hoặc `grep`. Về cơ bản thì mục đích sử dụng của 2 câu lệnh này là như nhau, dùng để tìm kiếm thông tin bên trong 1 file.  
 Đầu tiên ta sẽ mở CLI tại thư mục cần tìm kiếm (cmd đối với windows và Terminal đối với Linux) sau đó dùng 1 trong 2 câu lệnh để tìm kiếm.
 - `findstr` đối với Windows: <br>
 ![cmdmap](/miniCTF2020/writeupfiles/cmdmap.png)<br>
 - `grep` đối với Linux:<br>
 ![termap](/miniCTF2020/writeupfiles/terminalmap.png)<br>
-Flag: ispclub{n4hhh_1_g0t_c4tch3D}
+<br/>
+Flag: `ispclub{n4hhh_1_g0t_c4tch3D}`
 <br/>
 <br/>
 # Misc 150: winRAR winNER
