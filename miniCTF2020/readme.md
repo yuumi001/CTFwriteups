@@ -19,18 +19,18 @@
  | [ReMo](#crypto-100-remo) | Crypto | 100| `ispclub{r3_m0}` |
  | [Chick Chick wants breakfast!](#crypto-150-chick-chick-wants-breakfast!) | Crypto | 150 | `ISPCLUB{YUMMYYUMMY}` |
  | [Forbidden Magic](#crypto-222-forbidden-magic)| Crypto | 222 | `ISPCLUB{THEBESTWIZARD}` |
- | [No magic here](#for-100:-no-magic-here) | FOR | 100 | `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}` | 
- | [QR's Chick Chick](#FOR-50:-QR's-Chick-Chick) | FOR | 50 | `ispclub{pl4y1n9_w1th_QR_c0d3_15_v3ry_1nt3r35t1n9}` | 
- | [Wanna play Hide and Seek?](#FOR-150:-Wanna-play-Hide-and-Seek?) | FOR | 150 | `ispclub{n4hhh_1_g0t_c4tch3D}` | 
- | [winRAR winNER](#Misc-150:-winRAR-winNER) | Misc | 150 | `ispclub{welcome_and_have_fun}` | 
- | [Secret Book](#Misc-500:-Secret-Book) | Misc | 500 | `ispclub{d0K_s@cK_d3_9141_tR1}` | 
- | [Call me daddy](#RE-50:-Call-me-daddy) | RE | 30 | `ispclub{programmingBasic}` | 
- | [Pascal n Python](#Programming-150:-Pascal-n-Python) | Programming | 150 | `ispclub{3asy_r1ght?}` | 
- | [Become Powerful](#Web-100:-Become-Powerful) | Web | 100 | `ispclub{j01n_t0_run_th1s_w0rLd}` | 
- | [Menhera](#Web-100:-Menhera) | Web | 150 | `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}` | 
- | [2048](#Web-100:-2048) | Web | 200 | `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}` | 
- | [Scroll](#Web-100:-Scroll) | Web | 300 | `ispclub{sh0u1dnt_l34rn_j4v4scr1pt}` | 
- | [md5-1](#Web-100:-md5-1) | Web | 500 | `	ispclub{G00d_J0b_h4y_l4m_t41_n4ng_tr3!!!!!!!!!__<3}` |
+ | [No magic here](#for-100-no-magic-here) | FOR | 100 | `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}` | 
+ | [QR's Chick Chick](#for-50-qrs-chick-chick) | FOR | 50 | `ispclub{pl4y1n9_w1th_QR_c0d3_15_v3ry_1nt3r35t1n9}` | 
+ | [Wanna play Hide and Seek?](#for-150-wanna-play-hide-and-seek?) | FOR | 150 | `ispclub{n4hhh_1_g0t_c4tch3D}` | 
+ | [winRAR winNER](#misc-150-winrar-winner) | Misc | 150 | `ispclub{welcome_and_have_fun}` | 
+ | [Secret Book](#misc-500-secret-book) | Misc | 500 | `ispclub{d0K_s@cK_d3_9141_tR1}` | 
+ | [Call me daddy](#re-50-call-me-daddy) | RE | 30 | `ispclub{programmingBasic}` | 
+ | [Pascal n Python](#programming-150-pascal-n-python) | Programming | 150 | `ispclub{3asy_r1ght?}` | 
+ | [Become Powerful](#web-100-become-powerful) | Web | 100 | `ispclub{j01n_t0_run_th1s_w0rLd}` | 
+ | [Menhera](#web-100-menhera) | Web | 150 | `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}` | 
+ | [2048](#web-100-2048) | Web | 200 | `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}` | 
+ | [Scroll](#web-100-scroll) | Web | 300 | `ispclub{sh0u1dnt_l34rn_j4v4scr1pt}` | 
+ | [md5-1](#web-100-md5-1) | Web | 500 | `	ispclub{G00d_J0b_h4y_l4m_t41_n4ng_tr3!!!!!!!!!__<3}` |
 
 <br/>
 <br/>
