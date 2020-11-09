@@ -280,7 +280,7 @@ Là một thủ lĩnh của tổ chức toàn cầu như ta, tất nhiên ta có
 #### Solution
 Đề bài đã cho ta 1 bức ảnh khi mở nó ra ta có được một thứ có vẻ là 1 đường link đã được rút gọn, truy cập vào thì đó là một website có-vẻ-không-có-gì-nhiều :v  
 OKAY :| bị lừa rồi. Có vẻ như đây là 1 đường link nhưng mà đã bị thay đổi gì đó và thứ đáng nghi nhất là phần WH, chỉ có thể là Width và Height của 1 bức ảnh, sau đó mình đã kiểm tra thông số của bức ảnh (chuột phải -> Properties -> Detail), nhìn thấy *Dimensions* của ảnh là `728x90`.  
-Thay 728 vào W, 90 vào H ta nhận được [đường link mới](bit.ly/book_72890) và nhận được một quyển sách .pdf.  
+Thay 728 vào W, 90 vào H ta nhận được [đường link mới](https://bit.ly/book_72890) và nhận được một quyển sách .pdf.  
 Sau khi lật được vài trang thì có vẻ đây là một quyển sách bình thường trừ số trang không theo quy luật.  
 Liệt kê chuỗi số trang ra thì ta có một chuỗi trông có vẻ là có những ký tự chữ cái trong cả hệ decimal, octal theo thứ tự so le:
 ```sh
@@ -398,7 +398,7 @@ Flag: `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}`
 2048 là một trò chơi mà H3nl0r rất yêu thích, bạn hãy phá kỉ lục của H3nl0r nhé <3  
 
 [Web](http://minictf.hypnguyen.us/2048.html)  
-[deploy](/miniCTF2020/writeupfiles/2048deploy.rar) & [source](/miniCTF2020/writeupfiles/2048source.rar)  
+[deploy](/miniCTF2020/writeupfiles/2048deploy.zip) & [source](/miniCTF2020/writeupfiles/2048source.zip)  
   
 #### Solution
 Đúng như cái tên sau khi bấm vào link, ta được dẫn đến 1 trang 2048 và với yêu cầu phải đạt 30102020 điểm thì trang web mới xuất hiện flag.  
@@ -418,7 +418,7 @@ Flag: `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}`
 #### Challenge
 Nếu biết về ma pháp JS thì ta đã không phải cuộn sushi rồi  
   
-[Scroll] (/miniCTF2020/writeupfiles/Scroll.zip)  
+[Scroll](/miniCTF2020/writeupfiles/Scroll.zip)  
 #### Solution
 Khi bấm vào link nó dẫn ta tới 1 trang web được nhúng 1 vid youtube, sau 1 hồi SCROLL thì mình đã phát hiện ra đó là ở cuối trang có dòng chữ:
 ```sh
