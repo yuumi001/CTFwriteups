@@ -107,7 +107,7 @@ Flag: `ispclub{dancewithme}`
 <br/>
 #### Solution
 Đây là một đoạn mã morse. Ta có thể decode nó bằng các [website decode online](kt.gy)
-Dịch đoạn mã morse này ra ta được : `}0M_3R{BULCPS`. Chuỗi này đang bị ngược so với form flag chuẩn. Thực hiện đảo ngược lại là ta sẽ có được flag.<br>
+Dịch đoạn mã morse này ra ta được : `}0M_3R{BULCPSI`. Chuỗi này đang bị ngược so với form flag chuẩn. Thực hiện đảo ngược lại là ta sẽ có được flag.<br>
 Flag: `ISPCLUB{R3_M0}`
 <br/>
 <br/>
