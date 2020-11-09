@@ -134,7 +134,8 @@ Bảng chữ cái:<br>
 ![CharacterSystem](/miniCTF2020/writeupfiles/SOLVE-EZ.png)<br>
 <br/>
 Flag: `ISPCLUB{THEBESTWIZARD}`
-<br/><br/>
+<br/>
+<br/>
 
 # FOR 100: No magic here
 #### Challenge
@@ -147,7 +148,9 @@ Submit thử với form ISPCLUB{ANSWER} thì cho ra kết quả là *incorr
 Việc đầu tiên khi có một file .png hẳn là xem hex xem file này liệu có ẩn giấu gì không. Sử dụng tool **HxD** để xem và ở ngay cuối file ta thấy flag.
 ![hex](/miniCTF2020/writeupfiles/hexpng.png)<br>
 Flag: `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}`
-<br/><br/>
+<br/>
+<br/>
+
 # FOR 50: QR's Chick Chick
 #### Challenge
 Hắc cờ Chick Chick khiêu khích các người bằng một mã QR. Tưởng quét một phát là ra à? Mơ đi nhé !!!
@@ -177,16 +180,18 @@ Bài này khi giải nén tệp map.rar ta được một list các folder 
 ![cmdmap](/miniCTF2020/writeupfiles/cmdmap.png)<br>
 - `grep` đối với Linux:<br>
 ![termap](/miniCTF2020/writeupfiles/terminalmap.png)<br>
-Flag: ispclub{n4hhh_1_g0t_c4tch3D}<br>
+Flag: ispclub{n4hhh_1_g0t_c4tch3D}
+<br/>
 <br/>
 # Misc 150: winRAR winNER
 #### Challenge
 Hừ. Flag của ta đang mất dần và người yêu ta đang không vui lắm. Lần này ta đã giấu khá kỹ, ngươi sẽ không tìm được đâu.<br>
-[Challenge](/miniCTF2020/writeupfiles/chall.txt)<br>
+[Challenge](/miniCTF2020/writeupfiles/chall.txt)
+<br/>
 #### Solution
 Chúng ta có thể thấy đề bài đã cho chúng ta 1 file chall.txt và ở trong có 1 đường link drive. Khi truy cập vào ta được dẫn đến 1 thư mục chứa 1 tệp tên là **chall.zip** và 1 tệp **pass.txt**. Sau khi mình tải cả 2 file về và giải nén **chall.zip** thì thấy file yêu cầu có mật khẩu để giải nén và nó nằm trong file **pass.txt**. Sau khi nhập pass mình đã giải nén được thành công, bên trong tệp zip lại có thêm 2 file nữa:<br>
 ![liar](/miniCTF2020/writeupfiles/fakeflag.png)<br>
-Mình đã ngay lập tức mở file flag-in-here và đây là những gì mình nhận được:
+Mình đã ngay lập tức mở file *flag-in-here.txt* và đây là những gì mình nhận được:
 ```sh
 https://drive.google.com/drive/folders/1I2HcFsJzj9BUG0tp8NkRR6JMFpq-NGGZ?usp=sharing
 ```
@@ -201,7 +206,7 @@ I think u should search gg for "filename extension"
 Mình đã thử làm theo hint và giải nén file nhưng **chall2** lại yêu cầu pass để có thể mở khóa, mình đã thử lại pass đầu tiên nhưng có vẻ là không được. Thử đến ý tiếp theo của hint nào. Không cho giải nén thì ta cứ mở:<br>
 ![chall2](/miniCTF2020/writeupfiles/chall2.png)<br>
 Cái ảnh kia mình đã thử mở và không được, nên mình đã thử mở file zip và thật bất ngờ khi nó không cần pass để mở.
-Đây là những gì mình nhận được khi mở file NOT-important.txt:
+Đây là những gì mình nhận được khi mở file *NOT-important.txt*:
 ```sh
 change this from hex to ascii to get extract password(use your brain not your hand :> ): 0x73 0x68 0x69 0x6e 0x72 0x61 0x5f 0x74 0x65 0x6e 0x73 0x65 0x69
 NOT password(don't notice the picture):
