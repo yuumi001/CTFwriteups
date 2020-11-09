@@ -219,7 +219,7 @@ I don't hide anything...
 Okay, ngay dòng đầu tiên ta đã có được password giải nén nhưng mà yêu cầu phải đổi nó từ cơ số 16 về ascii để có pass.
 Sau khi [decode](https://kt.gy/tools.html#conv/) ta có được pass giải nén: `shinra_tensei`
 Đã giải nén thành công và nhận được bức ảnh:<br>
-[!shocked](/miniCTF2020/writeupfiles/I_DO_NOT_HIDE_ANYTHING.jpeg)<br>
+![shocked](/miniCTF2020/writeupfiles/I_DO_NOT_HIDE_ANYTHING.jpeg)<br>
 Okay got stuck again. Quay lại nghiền ngẫm file **hint.txt** tiếp và nhận ra có điều gì đó về *file extension*. Quăng vào xem hex và ta nhận ra nó là một file .zip. Đổi định dạng của nó thành file .zip và giải nén bằng mật khẩu là phần mã Morse trong **NOT-important.txt**. Sau khi decode ta có pass: `1_H1D3D_S0M3TH1N9`.  
 Và sau khi giải nén thành công ta có được thư mục **secrets**, “tận hưởng” toàn bộ ablum này xong thì ở thư mục cuối ta có được flag:<br>
 ![challflag](/miniCTF2020/writeupfiles/ISPCLUB.png)<br>
