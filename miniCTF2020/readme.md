@@ -27,10 +27,10 @@
  | [Call me daddy](#re-50-call-me-daddy) | RE | 30 | `ispclub{programmingBasic}` | 
  | [Pascal n Python](#programming-150-pascal-n-python) | Programming | 150 | `ispclub{3asy_r1ght?}` | 
  | [Become Powerful](#web-100-become-powerful) | Web | 100 | `ispclub{j01n_t0_run_th1s_w0rLd}` | 
- | [Menhera](#web-100-menhera) | Web | 150 | `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}` | 
- | [2048](#web-100-2048) | Web | 200 | `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}` | 
- | [Scroll](#web-100-scroll) | Web | 300 | `ispclub{sh0u1dnt_l34rn_j4v4scr1pt}` | 
- | [md5-1](#web-100-md5-1) | Web | 500 | `	ispclub{G00d_J0b_h4y_l4m_t41_n4ng_tr3!!!!!!!!!__<3}` |
+ | [Menhera](#web-150-menhera) | Web | 150 | `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}` | 
+ | [2048](#web-200-2048) | Web | 200 | `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}` | 
+ | [Scroll](#web-300-scroll) | Web | 300 | `ispclub{sh0u1dnt_l34rn_j4v4scr1pt}` | 
+ | [md5-1](#web-500-md5-1) | Web | 500 | `	ispclub{G00d_J0b_h4y_l4m_t41_n4ng_tr3!!!!!!!!!__<3}` |
 
 </br>
 </br>
@@ -283,10 +283,10 @@ Sau 1 hồi mình đã tìm thấy nó ngay trong trang About Us:
 ![about](/miniCTF2020/writeupfiles/aboutus.png)<br>
 Flag: `ispclub{j01n_t0_run_th1s_w0rLd}`
 </br></br>
-# Web 100: Menhera
+# Web 150: Menhera
 #### Challenge
 Chick Chick rất thích xem Menhera, trong một lần đang xem Mehera thì bỗng nhiên bị mất mạng. [Web](https://minictf-web02.herokuapp.com/)
-[Source](/miniCTF2020/writeupfiles/) & [deploy](/miniCTF2020/writeupfiles/).
+[Source](/miniCTF2020/writeupfiles/Menhera.zip).
 </br>
 #### Solution
 Click vào đường link sẽ dẫn ta đến 1 web chal, web này yêu cầu chúng ta tắt bật mạng 10 lần để ra flag. Thật may người ra đề là 1 người biết nghĩ cho thí sinh khi chỉ cần bật tắt 10 lần. Nhưng không, đó là 1 cách làm thật sự rất thiếu tinh tế, vậy nên mình đã quyết định check source code của trang web này và phát hiện ra 1 file *script.js* có đoạn code rất khả nghi:
@@ -322,7 +322,7 @@ print (b)
 ```
 Flag: `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}`
 </br> </br>
-# Web 100: 2048
+# Web 200: 2048
 #### Challenge
 2048 là một trò chơi mà H3nl0r rất yêu thích, bạn hãy phá kỉ lục của H3nl0r nhé <3 <br>
 [Web](http://minictf.hypnguyen.us/2048.html)
@@ -337,7 +337,7 @@ Sau khi sửa bestScore thành 30102020 thì trên web đã xuất hiện 
 Flag: `ispclub{4lw4y5_ch3ck_l0c4l_st0r4g3}`
 </br>
 </br>
-# Web 100: Scroll
+# Web 300: Scroll
 #### Challenge
 Nếu biết về ma pháp JS thì ta đã không phải cuộn sushi rồi <br>
 [Scroll] (/miniCTF2020/writeupfiles/Scroll.zip)<br>
@@ -358,10 +358,11 @@ body {
 Thử [mở riêng](http://minictf.hypnguyen.us/image.php?w=1&h=1) nó ra và thử thay đổi giá trị w và h trở thành [thế này](http://minictf.hypnguyen.us/image.php?w=1000&h=500) và ta có được flag.<br>
 Flag: `ispclub{sh0u1dnt_l34rn_j4v4scr1pt}`
 </br></br>
-# Web 100: md5-1
+# Web 500: md5-1
 #### Challenge
 H3nl0r cho rằng mình rất giỏi về các loại mã hóa, hmm điều đó có đúng không nhỉ<br>
 https://minictf-web05.herokuapp.com/<br>
+[Source](/miniCTF2020/writeupfiles/md5-1.zip)
 #### Solution
 Đối với chall này tụi mình xin phép trích [Wu của bạn Vũ Hoàng Anh](https://docs.google.com/document/d/1J2Iud4we_6G4mtstl9gTcKsXdQfwV10-8A5rcEhjpw4/) - người được giải Tiềm năng mùa miniCTF 2020 :3
 
