@@ -41,7 +41,7 @@ First you have to know about the world these days. Read [this book](/miniCTF2020
 <br/>
 #### Solution
 Đề bài yêu cầu chúng ta đọc file history, vậy hãy thử tải về xem chúng ta có gì nào.
-Đây là phần cốt truyện cho minictf và đọc đến cuối ta thấy được flag.
+Đây là phần cốt truyện cho minictf và đọc đến cuối ta thấy được flag.<br>
 Flag: `ispclub{ISP_ru1n_th3_w0rLd}`
 <br/>
 <br/>
@@ -55,7 +55,7 @@ Khi đọc thì ta có thể thấy là đề bài có các từ khóa **
 Có vẻ là chúng ta không thấy điều gì có vẻ khả nghi ở đây cả. Đọc thật kỹ đề bài, ta sẽ thấy đề bài liên tục nhắc đến ***thời gian***, ***flag***. Facebook có 1 tính năng cho phép ta có thể xem được lịch sử đã chỉnh sửa của 1 bài viết, có vẻ flag sẽ được giấu ở đó. Hãy cùng kiểm tra edit history của post này!<br>
 ![edit_history](/miniCTF2020/writeupfiles/edithistory.png)
 <br/>
-Quả nhiên flag được cài vào đây.
+Quả nhiên flag được cài vào đây.<br>
 Flag: `ispclub{b4k4_Ki3nM1ddL3}`
 <br/>
 <br/>
@@ -96,7 +96,7 @@ Hắc cờ Chick Chick đã bị bắt!!!! Nhưng nó đang nhảy múa??? Phả
 <br/>
 #### Solution
 Sau khi tải được tấm hình về ta có thể nhận định luôn đây là flag đã được mã hóa.
-Nếu như tinh ý thì bạn có thể nhận ra ngay lập tức đây là loại mã Dancing man được dùng trong bộ chuyện Sherlock Home nổi tiếng và có thể dễ dàng giải được câu đố này. Mình đã sử dụng [webside](https://www.dcode.fr/dancing-men-cipher) để decode.
+Nếu như tinh ý thì bạn có thể nhận ra ngay lập tức đây là loại mã Dancing man được dùng trong bộ chuyện Sherlock Home nổi tiếng và có thể dễ dàng giải được câu đố này. Mình đã sử dụng [webside](https://www.dcode.fr/dancing-men-cipher) để decode.<br>
 Flag: `ispclub{dancewithme}`
 <br/>
 <br/>
@@ -107,7 +107,7 @@ Flag: `ispclub{dancewithme}`
 <br/>
 #### Solution
 Đây là một đoạn mã morse. Ta có thể decode nó bằng các [website decode online](kt.gy)
-Dịch đoạn mã morse này ra ta được : `}0M_3R{BULCPS`. Chuỗi này đang bị ngược so với form flag chuẩn. Thực hiện đảo ngược lại là ta sẽ có được flag.
+Dịch đoạn mã morse này ra ta được : `}0M_3R{BULCPS`. Chuỗi này đang bị ngược so với form flag chuẩn. Thực hiện đảo ngược lại là ta sẽ có được flag.<br>
 Flag: `ISPCLUB{R3_M0}`
 <br/>
 <br/>
@@ -118,7 +118,7 @@ Mau giúp Chick Chick đi!!!!! (｡•́︿•̀｡) <br />
 `abaaa baaab abbba aaaba ababa baabb aaaab babba baabb ababb ababb babba babba baabb ababb ababb babba`
 <br/>
 #### Solution
-Đề bài cho một đoạn mã gì đó ta không hiểu và liên tục nhắc đi nhắc lại từ khóa **thịt xông khói**. Search google thì đúng là có tồn tại loại cipher tên là **Bacon cipher**. [Decode](https://www.dcode.fr/bacon-cipher) đoạn mã trên theo Bacon cipher sẽ ra được flag.
+Đề bài cho một đoạn mã gì đó ta không hiểu và liên tục nhắc đi nhắc lại từ khóa **thịt xông khói**. Search google thì đúng là có tồn tại loại cipher tên là **Bacon cipher**. [Decode](https://www.dcode.fr/bacon-cipher) đoạn mã trên theo Bacon cipher sẽ ra được flag.<br>
 Flag: `ISPCLUB{YUMMYYUMMY}`
 <br/>
 <br/>
@@ -145,7 +145,7 @@ Gần đây H3nl0r bắt đầu thích thú nghiên cứu đống ma thuật vô
 Sau khi tải file sthcrypty.png và mở lên ta thấy ngay nó được mã hóa tương tự như bài [Forbidden Magic](#Crypto-222:-Forbidden-Magic). Thử decode xem có ra flag được không và dịch ra ta có dòng chữ `WRONGDIRECTION`<br>
 Submit thử với form ISPCLUB{ANSWER} thì cho ra kết quả là *incorrect*. Chú ý đến categoty của bài, [Forbidden Magic](#Crypto-222:-Forbidden-Magic) là **Crypto** và [No magic here](#FOR-100:-No-magic-here) là **Forensic**. Hãy dùng cách làm của Forensic để xử lý bài này.
 Việc đầu tiên khi có một file .png hẳn là xem hex xem file này liệu có ẩn giấu gì không. Sử dụng tool **HxD** để xem và ở ngay cuối file ta thấy flag.
-![hex](/miniCTF2020/writeupfiles/hexpng.png)
+![hex](/miniCTF2020/writeupfiles/hexpng.png)<br>
 Flag: `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}`
 <br/><br/>
 # FOR 50: QR's Chick Chick
@@ -275,7 +275,7 @@ Gần đây tên đầu sỏ lại âm mưu truyền bá giáo phái của hắn
 #### Solution
 Bài này không có file đính kèm và dữ kiện duy nhất của ta là phần cốt truyện kia. Có thể thấy là cốt truyện đã đề cập đến việc Lươn đã nhét flag vào trang web này. Thử f12 xem source code xem sao!
 Sau 1 hồi mình đã tìm thấy nó ngay trong trang About Us:
-![about](/miniCTF2020/writeupfiles/aboutus.png)
+![about](/miniCTF2020/writeupfiles/aboutus.png)<br>
 Flag: `ispclub{j01n_t0_run_th1s_w0rLd}`
 <br/><br/>
 # Web 100: Menhera
@@ -319,7 +319,7 @@ Flag: `ispclub{v3__v0i__d0i__cua__anh__d1_3m__e111__<333}`
 <br/> <br/>
 # Web 100: 2048
 #### Challenge
-2048 là một trò chơi mà H3nl0r rất yêu thích, bạn hãy phá kỉ lục của H3nl0r nhé <3<br>
+2048 là một trò chơi mà H3nl0r rất yêu thích, bạn hãy phá kỉ lục của H3nl0r nhé <3 <br>
 [Web](http://minictf.hypnguyen.us/2048.html)
 [deploy](/miniCTF2020/writeupfiles/2048deploy.rar) & [source](/miniCTF2020/writeupfiles/2048source.rar)
 <br/>
