@@ -21,7 +21,7 @@
  | [Forbidden Magic](#crypto-222-forbidden-magic)| Crypto | 222 | `ISPCLUB{THEBESTWIZARD}` |
  | [No magic here](#for-100-no-magic-here) | FOR | 100 | `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}` | 
  | [QR's Chick Chick](#for-50-qrs-chick-chick) | FOR | 50 | `ispclub{pl4y1n9_w1th_QR_c0d3_15_v3ry_1nt3r35t1n9}` | 
- | [Wanna play Hide and Seek?](#for-150-wanna-play-hide-and-seek?) | FOR | 150 | `ispclub{n4hhh_1_g0t_c4tch3D}` | 
+ | [Wanna play Hide and Seek?](#for-150-wanna-play-hide-and-seek) | FOR | 150 | `ispclub{n4hhh_1_g0t_c4tch3D}` | 
  | [winRAR winNER](#misc-150-winrar-winner) | Misc | 150 | `ispclub{welcome_and_have_fun}` | 
  | [Secret Book](#misc-500-secret-book) | Misc | 500 | `ispclub{d0K_s@cK_d3_9141_tR1}` | 
  | [Call me daddy](#re-50-call-me-daddy) | RE | 30 | `ispclub{programmingBasic}` | 
