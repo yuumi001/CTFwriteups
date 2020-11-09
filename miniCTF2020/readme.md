@@ -17,7 +17,7 @@
  | [Teacher Ki3nM1ddL3](#crypto-100-teacher-ki3nm1ddL3) |	Crypto	| 100 | `ispclub{sUch_4_L0n9_w4y}` |
  | [Dancer Chick Chick](#crypto-100-dancer-chick-chick) | Crypto | 100 | `ispclub{dancewithme}` |
  | [ReMo](#crypto-100-remo) | Crypto | 100| `ispclub{r3_m0}` |
- | [Chick Chick wants breakfast!](#crypto-150-chick-chick-wants-breakfast!) | Crypto | 150 | `ISPCLUB{YUMMYYUMMY}` |
+ | [Chick Chick wants breakfast!](#crypto-150-chick-chick-wants-breakfast) | Crypto | 150 | `ISPCLUB{YUMMYYUMMY}` |
  | [Forbidden Magic](#crypto-222-forbidden-magic)| Crypto | 222 | `ISPCLUB{THEBESTWIZARD}` |
  | [No magic here](#for-100-no-magic-here) | FOR | 100 | `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}` | 
  | [QR's Chick Chick](#for-50-qrs-chick-chick) | FOR | 50 | `ispclub{pl4y1n9_w1th_QR_c0d3_15_v3ry_1nt3r35t1n9}` | 
