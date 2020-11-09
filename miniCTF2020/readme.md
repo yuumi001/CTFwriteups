@@ -363,5 +363,5 @@ Flag: `ispclub{sh0u1dnt_l34rn_j4v4scr1pt}`
 H3nl0r cho rằng mình rất giỏi về các loại mã hóa, hmm điều đó có đúng không nhỉ<br>
 https://minictf-web05.herokuapp.com/<br>
 #### Solution
-Đối với chall này tụi mình xin phép trích [Wu của bạn Vũ Hoàng Anh]() - người được giải Tiềm năng mùa miniCTF 2020 :3
+Đối với chall này tụi mình xin phép trích [Wu của bạn Vũ Hoàng Anh](https://docs.google.com/document/d/1J2Iud4we_6G4mtstl9gTcKsXdQfwV10-8A5rcEhjpw4/) - người được giải Tiềm năng mùa miniCTF 2020 :3
 
