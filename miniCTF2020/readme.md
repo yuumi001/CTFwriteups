@@ -72,24 +72,24 @@ Nếu ngươi được thừa hưởng một tí tẹo trí tuệ của ta ngư�
 #### Solution
 Khi vừa mở tệp bin.txt thì có thể thấy được 1 loạt các ký tự 0 và 1. Đề bài cũng gợi ý đó là **ngôn ngữ máy tính hiểu**. Vậy đây chính là mã binary. Khi thực hiện decode từ bin trở thành ascii thì ta thu được dòng chữ:  
 
-```sh
+```
 After binary surely have hex 41 66 74 65 72 20 74 68 61 74 20 77 65 20 68 61 76 65 20 62 61 73 65 36 34 20 56 47 68 6c 62 69 42 6f 5a 58 4a 6c 49 48 64 6c 49 47 64 76 49 48 64 70 64 47 67 67 59 6d 46 7a 5a 54 4d 79 49 45 70 61 55 31 68 52 4e 55 4a 42 54 6b 5a 61 55 30 45 79 54 45 39 50 55 56 46 45 51 30 35 61 55 6b 64 52 57 56 52 44 54 6b 4a 58 53 45 55 79 52 45 4e 4f 55 6c 6c 48 56 54 4e 55 52 30 31 4b 57 55 64 46 57 6c 52 50 54 30 4a 5a 52 30 6b 7a 52 46 4e 50 53 6c 5a 49 52 54 52 45 54 30 31 61 57 6b 64 52 4d 30 52 44 54 55 70 57 52 31 55 30 56 45 31 4e 53 6c 68 48 52 54 4e 55 53 55 35 43 56 6b 68 46 4e 46 52 4a 54 6c 4a 52 52 30 30 7a 56 45 31 4f 53 6c 64 48 56 54 52 45 55 30 39 43 56 30 63 30 4e 45 52 54 54 6b 4a 58 52 30 46 61 52 45 6c 50 53 6c 4e 49 51 54 4e 55 51 55 31 43 57 45 64 4a 57 56 52 4e 54 30 70 57 53 45 46 61 56 45 46 4e 51 6c 4a 48 52 56 70 45 55 30 35 53 56 6b 64 4a 57 6b 52 50 54 6b 70 53 52 31 46 61 56 46 46 50 51 6c 5a 48 53 54 4e 55 52 30 39 4b 57 6b 64 52 57 6c 52 44 54 55 4a 52 52 31 6c 5a 52 45 6c 50 53 6c 52 48 51 56 70 45 55 30 31 43 57 67 3d 3d
 ```
 Vậy là sẽ có nhiều mã được sử dụng. Đối với bài này thì một trang [website như thế này](https://kt.gy/tools.html#conv/) rất tiện lợi.  
 Đề bài đã gợi ý đây là đoạn mã hex. Tiếp tục decode từ hex sang ascii:  
-```sh
+```
 After that we have base64 VGhlbiBoZXJlIHdlIGdvIHdpdGggYmFzZTMyIEpaU1hRNUJBTkZaU0EyTE9PUVFEQ05aUkdRWVRDTkJXSEUyRENOUllHVTNUR01KWUdFWlRPT0JZR0kzRFNPSlZIRTRET01aWkdRM0RDTUpWR1U0VE1NSlhHRTNUSU5CVkhFNFRJTlJRR00zVE1OSldHVTREU09CV0c0NERTTkJXR0FaRElPSlNIQTNUQU1CWEdJWVRNT0pWSEFaVEFNQlJHRVpEU05SVkdJWkRPTkpSR1FaVFFPQlZHSTNUR09KWkdRWlRDTUJRR1lZRElPSlRHQVpEU01CWg==
 ```
 Tiếp tới là base64:  
-```sh
+```
 Then here we go with base32 JZSXQ5BANFZSA2LOOQQDCNZRGQYTCNBWHE2DCNRYGU3TGMJYGEZTOOBYGI3DSOJVHE4DOMZZGQ3DCMJVGU4TMMJXGE3TINBVHE4TINRQGM3TMNJWGU4DSOBWG44DSNBWGAZDIOJSHA3TAMBXGIYTMOJVHAZTAMBRGEZDSNRVGIZDONJRGQZTQOBVGI3TGOJZGQZTCMBQGYYDIOJTGAZDSMBZ
 ```
 Base32:  
-```sh
+```
 Next is int 171411469416857318137882699598739461155961717445994603765658986789460249287007216958300112965227514388527399431006049302909
 ```
 Tiếp tới là mã int:  
-```sh
+```
 Bases are fun. Your prize: ispclub{sUch_4_L0n9_w4y}
 ```
 Phew. Flag: `ispclub{sUch_4_L0n9_w4y}`  
@@ -231,12 +231,12 @@ Chúng ta có thể thấy đề bài đã cho chúng ta 1 file chall.txt và �
 ![liar](/miniCTF2020/writeupfiles/fakeflag.png)  
 
 Mình đã ngay lập tức mở file *flag-in-here.txt* và đây là những gì mình nhận được:
-```sh
+```
 https://drive.google.com/drive/folders/1I2HcFsJzj9BUG0tp8NkRR6JMFpq-NGGZ?usp=sharing
 ```
 Và đời không như là mơ :v  
 Tiếp tục truy cập thì chúng ta nhận được thêm **hint.txt** và 1 tệp **chall.zip** nữa. Sau khi tải về và mở file **hint.txt** thì đây là những gì mình nhận được:
-```sh
+```
 Try to extract that or just open it, you'll see something strange, gud luk
 It doesn't look like what u see.
 can u change that to zip file?
@@ -248,7 +248,7 @@ Mình đã thử làm theo hint và giải nén file nhưng **chall2** lại yê
 
 Cái ảnh kia mình đã thử mở và không được, nên mình đã thử mở file zip và thật bất ngờ khi nó không cần pass để mở.
 Đây là những gì mình nhận được khi mở file *NOT-important.txt*:
-```sh
+```
 change this from hex to ascii to get extract password(use your brain not your hand :> ): 0x73 0x68 0x69 0x6e 0x72 0x61 0x5f 0x74 0x65 0x6e 0x73 0x65 0x69
 NOT password(don't notice the picture):
 •−−−− ••−−•− •••• •−−−− −•• •••−− −•• ••−−•− ••• −−−−− −− •••−− − •••• •−−−− −• −−−−•
@@ -313,7 +313,7 @@ Và phần hàm main:
 ![main](/miniCTF2020/writeupfiles/main.png)  
   
   
-Ở phần khai báo biến ta thấy có 1 biến “name” kiểu string, 1 biến “daddy” kiểu string có giá trị là ‘ISP’ và 1 biến “flag” kiểu string có giá trị là `hrqbmtczqsnfs`llhofC`rhb|`.  
+Ở phần khai báo biến ta thấy có 1 biến “name” kiểu string, 1 biến “daddy” kiểu string có giá trị là ‘ISP’ và 1 biến “flag” kiểu string có giá trị là `hrqbmtczqsnfs```llhofC```rhb|`.  
 Ở phần chương trình con ta có thể thấy đó là hàm này dùng để xử lý flag đã được khai báo ở trên kia thành flag mà chúng ta có thể submit được.  
 Đọc trong main thì ta thấy có câu lệnh so sánh, nếu như input của người dùng nhập vào bằng với giá trị của biến daddy thì sẽ gọi hàm con printFlag.  
 Vậy thì dễ rồi, chỉ cần chạy rồi nhập input = ‘ISP’ là có thể ra được flag.  
@@ -331,6 +331,7 @@ Flag: `ispclub{programmingBasic}`
 Ki3nM1ddL3 mới tập lập trình Python và hắn nhận ra Python cũng có vài điểm chung với Pascal. Xem xem ai học Python nhanh hơn nhé.  
   
 [c0d3.py](/miniCTF2020/writeupfiles/c0d3.py)  
+  
 #### Solution
 Bài này chỉ đơn giản là các ký tự trong flag đã được cộng thêm 160 và mình đã có chuỗi sau khi các ký tự được cộng với 160. Chỉ cần thực hiện lấy giá trị mỗi ký tự trừ đi 160 rồi in ra là ta sẽ có được flag rồi.  
   
@@ -359,7 +360,7 @@ Chick Chick rất thích xem Menhera, trong một lần đang xem Mehera thì b�
   
 #### Solution
 Click vào đường link sẽ dẫn ta đến 1 web chal, web này yêu cầu chúng ta tắt bật mạng 10 lần để ra flag. Thật may người ra đề là 1 người biết nghĩ cho thí sinh khi chỉ cần bật tắt 10 lần. Nhưng không, đó là 1 cách làm thật sự rất thiếu tinh tế, vậy nên mình đã quyết định check source code của trang web này và phát hiện ra 1 file *script.js* có đoạn code rất khả nghi:  
-```
+```javascript
 wordRunner(speech);
     let title = document.querySelector('.title span').innerHTML;
     let $$ = 10
@@ -380,7 +381,7 @@ wordRunner(speech);
 Đọc hiểu thì đúng là sau khi chúng ta tắt bật mạng 10 lần `(if ($$ === 10))` thì web sẽ in ra flag cho chúng ta, nhưng để ý phần khai báo `let $$$` có thể nhận định được đây là 1 đoạn base64 đã bị đảo sau đó cắt ra, do ở dưới chúng ta có câu lệnh khai báo flag
 `let flag = _.__($$$.join(‘’).split(‘’).reverse().join(‘’))`
 Vậy là chỉ cần ghép những cụm từ trong `$$$` sau đó đảo lại và decode từ base64 về ascii là được, mình đã viết 1 script nhỏ bằng python3 để solve đoạn này:  
-```
+```python 
 import base64
 a = ['==QfzMzM881XxETMl9', '1XtNzXxQ2Xfhmbh91XhV3Yf9VawQ', '2XflGM291XzY3eiVHbjB3cpBiO5B', '6wuBSZn5WZsxWYoNGIhd6uhPGI', 'nFGbmByZu95uhDrxoRHIudqu', 'hjGcgA6wsBSeiOMkEDiLsOsc0', 'BibqOcarBSadub4wa8ZuBCoDzGI01quhjGdg4Wo6GuQ']
 b = ""
@@ -421,13 +422,13 @@ Nếu biết về ma pháp JS thì ta đã không phải cuộn sushi rồi
 [Scroll](/miniCTF2020/writeupfiles/Scroll.zip)  
 #### Solution
 Khi bấm vào link nó dẫn ta tới 1 trang web được nhúng 1 vid youtube, sau 1 hồi SCROLL thì mình đã phát hiện ra đó là ở cuối trang có dòng chữ:
-```sh
+```
 Hint: cuộn xuống tiếp đi 
 ```
 Nhưng hint đó không có tác dụng gì cả. Vậy nên mình đã F12 để check source code của trang và phát hiện ra 1 hint khác:  
 ![Scrollhint](/miniCTF2020/writeupfiles/Scrollhint.png)  
 Đường link background của trang web có gì đó khả nghi?  
-```sh
+```
 body {
     background-image: url(image.php?w=1&h=1);
     height: 10000px;
