@@ -96,7 +96,7 @@ Hắc cờ Chick Chick đã bị bắt!!!! Nhưng nó đang nhảy múa??? Phả
 <br/>
 #### Solution
 Sau khi tải được tấm hình về ta có thể nhận định luôn đây là flag đã được mã hóa.
-Nếu như tinh ý thì bạn có thể nhận ra ngay lập tức đây là loại mã Dancing man được dùng trong bộ chuyện Sherlock Home nổi tiếng và có thể dễ dàng giải được câu đố này. Mình đã sử dụng [webside](https://www.dcode.fr/dancing-men-cipher) để decode.<br>
+Nếu như tinh ý thì bạn có thể nhận ra ngay lập tức đây là loại mã Dancing man được dùng trong bộ truyện Sherlock Home nổi tiếng và có thể dễ dàng giải được câu đố này. Mình đã sử dụng [webside](https://www.dcode.fr/dancing-men-cipher) để decode.<br>
 Flag: `ispclub{dancewithme}`
 <br/>
 <br/>
