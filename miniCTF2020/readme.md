@@ -3,7 +3,7 @@
 Để chào mừng các tân sinh viên và những người có đam mê và muốn tìm hiểu về Cyber Security, ISP Club chúng mình đã tổ chức cuộc thi thường niên miniCTF và đây là writeup cho miniCTF năm 2020.
 
 ### Overview
-![miniCTF firstlook](/logo.png)
+![miniCTF firstlook](/miniCTF/logo.png)
 
  | Title | Category | Points | Flag
  | ------ | ------ | ------ | ------ |
