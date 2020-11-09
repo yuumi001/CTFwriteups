@@ -4,7 +4,6 @@
 
 ### Overview
 ![miniCTF firstlook](/logo.png)
-Format: ![Alt Text](url)
 
  | Title | Category | Points | Flag
  | ------ | ------ | ------ | ------ |
