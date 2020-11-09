@@ -1,7 +1,7 @@
 # CTF Writeups
 
 
-CTF events are computer security/hacking competitions which generally consist of participants breaking, investigating, reverse engineering and doing anything they can think of to reach the end goal; the flag, which is usually a specific string of text.
+Đây là một số Writeup của một số giải CTF mà CLB mình đã viết.
 
 ### Links
 Xem các cuộc thi CTF sắp mở tại [CTFtime](https://ctftime.org/).
