@@ -11,7 +11,7 @@ Xem các cuộc thi CTF sắp mở tại [CTFtime](https://ctftime.org/).
 
 | CTF | link
 | ------ | ------ |
-| miniCTF | [2020](miniCTF/2020writeups.md) |
+| miniCTF | [2020](miniCTF2020/readme.md) |
 | J2 | [2020]() |
 
 ### Beginner Recommended CTFs
