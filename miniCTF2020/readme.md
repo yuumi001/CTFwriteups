@@ -96,7 +96,7 @@ Hắc cờ Chick Chick đã bị bắt!!!! Nhưng nó đang nhảy múa??? Phả
 <br/>
 #### Solution
 Sau khi tải được tấm hình về ta có thể nhận định luôn đây là flag đã được mã hóa.
-Nếu như tinh ý thì bạn có thể nhận ra ngay lập tức đây là loại mã Dancing man được dùng trong bộ truyện Sherlock Home nổi tiếng và có thể dễ dàng giải được câu đố này. Mình đã sử dụng [webside](https://www.dcode.fr/dancing-men-cipher) để decode.<br>
+Nếu như tinh ý thì bạn có thể nhận ra ngay lập tức đây là loại mã Dancing man được dùng trong bộ truyện Sherlock Home nổi tiếng và có thể dễ dàng giải được câu đố này. Mình đã sử dụng [website](https://www.dcode.fr/dancing-men-cipher) để decode.<br>
 Flag: `ispclub{dancewithme}`
 <br/>
 <br/>
@@ -124,7 +124,7 @@ Flag: `ISPCLUB{YUMMYYUMMY}`
 <br/>
 # Crypto 222: Forbidden Magic
 #### Challenge
-H3nlor đang thực hiện ma pháp tối thượng nhằm tước đoạt trí thông minh của các flag hunter. Nhưng vì đây là 1 cấm thuật cổ xưa nên hắn cần 6 ngày để có thể thực hiện được, trong thời gian đó hãy giải mã bí ẩn của phép thuật này và ngăn chặn H3nlor trước khi quá muộn!
+H3nlor đang thực hiện ma pháp tối thượng nhằm tước đoạt trí thông minh của các flag hunter. Nhưng vì đây là 1 cấm thuật cổ xưa nên hắn cần 6 ngày để có thể thực hiện được, trong thời gian đó hãy giải mã bí ẩn của phép thuật này và ngăn chặn H3nlor trước khi quá muộn!<br>
 File: [magic_circle](/miniCTF2020/writeupfiles/Magic_circle.png) [spell](/miniCTF2020/writeupfiles/SPELL.png)
 <br/>
 #### Solution
@@ -139,13 +139,13 @@ Flag: `ISPCLUB{THEBESTWIZARD}`
 
 # FOR 100: No magic here
 #### Challenge
-Gần đây H3nl0r bắt đầu thích thú nghiên cứu đống ma thuật vô dụng và bắt đầu làm mất flag của ta. Thật tức giận. Nhưng không sao, ta đã có biện pháp bảo vệ chúng.
+Gần đây H3nl0r bắt đầu thích thú nghiên cứu đống ma thuật vô dụng và bắt đầu làm mất flag của ta. Thật tức giận. Nhưng không sao, ta đã có biện pháp bảo vệ chúng.<br>
 [file](/miniCTF2020/writeupfiles/sthcrypty.png)
 <br/>
 #### Solution
-Sau khi tải file sthcrypty.png và mở lên ta thấy ngay nó được mã hóa tương tự như bài [Forbidden Magic](#Crypto-222:-Forbidden-Magic). Thử decode xem có ra flag được không và dịch ra ta có dòng chữ `WRONGDIRECTION`<br>
-Submit thử với form ISPCLUB{ANSWER} thì cho ra kết quả là *incorrect*. Chú ý đến categoty của bài, [Forbidden Magic](#Crypto-222:-Forbidden-Magic) là **Crypto** và [No magic here](#FOR-100:-No-magic-here) là **Forensic**. Hãy dùng cách làm của Forensic để xử lý bài này.
-Việc đầu tiên khi có một file .png hẳn là xem hex xem file này liệu có ẩn giấu gì không. Sử dụng tool **HxD** để xem và ở ngay cuối file ta thấy flag.
+Sau khi tải file sthcrypty.png và mở lên ta thấy ngay nó được mã hóa tương tự như bài [Forbidden Magic](#crypto-222-forbidden-magic). Thử decode xem có ra flag được không và dịch ra ta có dòng chữ `WRONGDIRECTION`.<br>
+Submit thử với form `ISPCLUB{ANSWER}` thì cho ra kết quả là **incorrect**. Chú ý đến category của bài, [Forbidden Magic](#crypto-222-forbidden-magic) là **Crypto** và [No magic here](#for-100-no-magic-here) là **Forensic**. Hãy dùng cách làm của **Forensic** để xử lý bài này.  
+Việc đầu tiên khi có một file .png hẳn là xem hex xem file này liệu có ẩn giấu gì không. Sử dụng tool **HxD** để xem và ở ngay cuối file ta thấy flag.<br>
 ![hex](/miniCTF2020/writeupfiles/hexpng.png)<br>
 Flag: `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}`
 <br/>
