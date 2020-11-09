@@ -17,7 +17,7 @@
  | [Teacher Ki3nM1ddL3](#crypto-100-teacher-ki3nm1ddL3) |	Crypto	| 100 | `ispclub{sUch_4_L0n9_w4y}` |
  | [Dancer Chick Chick](#crypto-100-dancer-chick-chick) | Crypto | 100 | `ispclub{dancewithme}` |
  | [ReMo](#crypto-100-remo) | Crypto | 100| `ispclub{r3_m0}` |
- | [Chick Chick wants breakfast!](#crypto-150-chick-chick-wants-breakfast!) | Crypto | 150 | `ISPCLUB{YUMMYYUMMY}` |
+ | [Chick Chick wants breakfast!](#crypto-150-chick-chick-wants-breakfast) | Crypto | 150 | `ISPCLUB{YUMMYYUMMY}` |
  | [Forbidden Magic](#crypto-222-forbidden-magic)| Crypto | 222 | `ISPCLUB{THEBESTWIZARD}` |
  | [No magic here](#for-100-no-magic-here) | FOR | 100 | `ispclub{w4Y5_T0_3xpL01t_pN9_f1L35}` | 
  | [QR's Chick Chick](#for-50-qrs-chick-chick) | FOR | 50 | `ispclub{pl4y1n9_w1th_QR_c0d3_15_v3ry_1nt3r35t1n9}` | 
@@ -69,7 +69,7 @@ Khi vừa mở tệp bin.txt thì có thể thấy được 1 loạt ca�
 ```sh
 After binary surely have hex 41 66 74 65 72 20 74 68 61 74 20 77 65 20 68 61 76 65 20 62 61 73 65 36 34 20 56 47 68 6c 62 69 42 6f 5a 58 4a 6c 49 48 64 6c 49 47 64 76 49 48 64 70 64 47 67 67 59 6d 46 7a 5a 54 4d 79 49 45 70 61 55 31 68 52 4e 55 4a 42 54 6b 5a 61 55 30 45 79 54 45 39 50 55 56 46 45 51 30 35 61 55 6b 64 52 57 56 52 44 54 6b 4a 58 53 45 55 79 52 45 4e 4f 55 6c 6c 48 56 54 4e 55 52 30 31 4b 57 55 64 46 57 6c 52 50 54 30 4a 5a 52 30 6b 7a 52 46 4e 50 53 6c 5a 49 52 54 52 45 54 30 31 61 57 6b 64 52 4d 30 52 44 54 55 70 57 52 31 55 30 56 45 31 4e 53 6c 68 48 52 54 4e 55 53 55 35 43 56 6b 68 46 4e 46 52 4a 54 6c 4a 52 52 30 30 7a 56 45 31 4f 53 6c 64 48 56 54 52 45 55 30 39 43 56 30 63 30 4e 45 52 54 54 6b 4a 58 52 30 46 61 52 45 6c 50 53 6c 4e 49 51 54 4e 55 51 55 31 43 57 45 64 4a 57 56 52 4e 54 30 70 57 53 45 46 61 56 45 46 4e 51 6c 4a 48 52 56 70 45 55 30 35 53 56 6b 64 4a 57 6b 52 50 54 6b 70 53 52 31 46 61 56 46 46 50 51 6c 5a 48 53 54 4e 55 52 30 39 4b 57 6b 64 52 57 6c 52 44 54 55 4a 52 52 31 6c 5a 52 45 6c 50 53 6c 52 48 51 56 70 45 55 30 31 43 57 67 3d 3d
 ```
-Vậy là sẽ có nhiều mã được sử dụng. Đối với bài này thì một trang [website như thế này](kt.gy) rất tiện lợi.  
+Vậy là sẽ có nhiều mã được sử dụng. Đối với bài này thì một trang [website như thế này](https://kt.gy/tools.html#conv/) rất tiện lợi.  
 Đề bài đã gợi ý đây là đoạn mã hex. Tiếp tục decode từ hex sang ascii:  
 ```sh
 After that we have base64 VGhlbiBoZXJlIHdlIGdvIHdpdGggYmFzZTMyIEpaU1hRNUJBTkZaU0EyTE9PUVFEQ05aUkdRWVRDTkJXSEUyRENOUllHVTNUR01KWUdFWlRPT0JZR0kzRFNPSlZIRTRET01aWkdRM0RDTUpWR1U0VE1NSlhHRTNUSU5CVkhFNFRJTlJRR00zVE1OSldHVTREU09CV0c0NERTTkJXR0FaRElPSlNIQTNUQU1CWEdJWVRNT0pWSEFaVEFNQlJHRVpEU05SVkdJWkRPTkpSR1FaVFFPQlZHSTNUR09KWkdRWlRDTUJRR1lZRElPSlRHQVpEU01CWg==
@@ -106,7 +106,7 @@ Flag: `ispclub{dancewithme}`
 `} −−−−− −− ••−−•− •••−− •−• { −••• ••− •−•• −•−• •−−• ••• ••`
 </br>
 #### Solution
-Đây là một đoạn mã morse. Ta có thể decode nó bằng các [website decode online](kt.gy)
+Đây là một đoạn mã morse. Ta có thể decode nó bằng các [website decode online](https://kt.gy/tools.html#conv/)
 Dịch đoạn mã morse này ra ta được : `}0M_3R{BULCPSI`. Chuỗi này đang bị ngược so với form flag chuẩn. Thực hiện đảo ngược lại là ta sẽ có được flag.<br>
 Flag: `ISPCLUB{R3_M0}`
 </br>
@@ -217,7 +217,7 @@ and I do NOT know about something like M0rse. Truth me :<
 I don't hide anything...
 ```
 Okay, ngay dòng đầu tiên ta đã có được password giải nén nhưng mà yêu cầu phải đổi nó từ cơ số 16 về ascii để có pass.
-Sau khi [decode](kt.gy) ta có được pass giải nén: `shinra_tensei`
+Sau khi [decode](https://kt.gy/tools.html#conv/) ta có được pass giải nén: `shinra_tensei`
 Đã giải nén thành công và nhận được bức ảnh:<br>
 [!shocked](/miniCTF2020/writeupfiles/I_DO_NOT_HIDE_ANYTHING.jpeg)<br>
 Okay got stuck again. Quay lại nghiền ngẫm file **hint.txt** tiếp và nhận ra có điều gì đó về *file extension*. Quăng vào xem hex và ta nhận ra nó là một file .zip. Đổi định dạng của nó thành file .zip và giải nén bằng mật khẩu là phần mã Morse trong **NOT-important.txt**. Sau khi decode ta có pass: `1_H1D3D_S0M3TH1N9`.  
