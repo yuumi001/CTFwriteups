@@ -41,7 +41,7 @@ Sau khi chạy cả 2 trường hợp "Y" và "N" mình nhận được t�
   ispclub{y0u_d0_n0t_g3t_th3_fl4g}
 ```
 Cùng check qua source code xem ta sẽ thu được gì:
-- Dòng 20: *string sudoku="..."*  có 81 ký tự = 9x9. Có thể suy ra đây là ma trận sudoku.
+- Dòng 20: *`string sudoku="..."`*  có 81 ký tự = 9x9. Có thể suy ra đây là ma trận sudoku.
 - Dòng 37: *sudoku[++c]-97* dùng để chuyển các ký tự từ chữ về số theo mã ASCII.
 - Dòng 42 - 45: Ta thấy string flag4 phụ thuộc vào các string flag1, flag2, flag3 và "sudoku". 
 - Dòng 47: *if (flag4.size()==34) cout << flag4 << endl;*  nếu size flag4 bằng đúng với 34 ( = với size của flag4 dòng 19) thì sẽ in ra flag4. Vậy ta kết luận flag4 là flag của bài.  
