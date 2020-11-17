@@ -34,7 +34,7 @@ Writeup dành cho các challenges trong thời gian Training của Gen II CLB IS
 	--------------------------
 	Try again
 ```
-Sau khi chạy cả 2 trường hợp "Y" và "N" mình nhận được tất cả 3 flag giả:  
+Sau khi chạy cả 2 trường hợp `Y` và `N` mình nhận được tất cả 3 flag giả:  
 ```
   ispclub{d0_y0u_l1k3_5ud0ku?} 
   ispclub{l3t'5_try_4_puzzl3!}
@@ -42,9 +42,9 @@ Sau khi chạy cả 2 trường hợp "Y" và "N" mình nhận được t�
 ```
 Cùng check qua source code xem ta sẽ thu được gì:
 - Dòng 20: *`string sudoku="..."`*  có 81 ký tự = 9x9. Có thể suy ra đây là ma trận sudoku.
-- Dòng 37: *sudoku[++c]-97* dùng để chuyển các ký tự từ chữ về số theo mã ASCII.
+- Dòng 37: *`sudoku[++c]-97`* dùng để chuyển các ký tự từ chữ về số theo mã ASCII.
 - Dòng 42 - 45: Ta thấy string flag4 phụ thuộc vào các string flag1, flag2, flag3 và "sudoku". 
-- Dòng 47: *if (flag4.size()==34) cout << flag4 << endl;*  nếu size flag4 bằng đúng với 34 ( = với size của flag4 dòng 19) thì sẽ in ra flag4. Vậy ta kết luận flag4 là flag của bài.  
+- Dòng 47: *`if (flag4.size()==34) cout << flag4 << endl;`*  nếu size flag4 bằng đúng với 34 ( = với size của flag4 dòng 19) thì sẽ in ra flag4. Vậy ta kết luận flag4 là flag của bài.  
 
 Bây giờ ta phải đi giải bài sudoku này, thay các giá trị 0 bằng những số thích hợp. Ta chuyển dãy sudoku ấy về xâu chữ cái với *‘0’ = ’a’, ’1’ = ’b’, ’2’ = ’c’,...* Mình dùng 1 script `python` để làm việc này:  
 ```
