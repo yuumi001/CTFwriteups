@@ -87,4 +87,3 @@ Sau đó thay chuỗi vừa tìm được vào source code challenge ban đ�
 	ispclub{5ud0ku_puzzl3_15_n0t_345y}
 ```
 Flag: `ispclub{5ud0ku_puzzl3_15_n0t_345y}`
-
