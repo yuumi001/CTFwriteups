@@ -6,8 +6,8 @@ Writeup dành cho các challenges trong thời gian Training của Gen II CLB IS
 ## Overview
  | Title | Category  | Flag |
  | ------ | ------ | ------ |
- | [Sudoku](#sudoku) | Programming | `ispclub{5ud0ku_puzzl3_15_n0t_345y}` |
- | [Super panic](#super-panic) | Forensic | `ispclub{h3y_br0_c4lm_d0wn}` |
+ | [Sudoku](#1-sudoku) | Programming | `ispclub{5ud0ku_puzzl3_15_n0t_345y}` |
+ | [Super panic](#2-super-panic) | Forensic | `ispclub{h3y_br0_c4lm_d0wn}` |
   
   
   
