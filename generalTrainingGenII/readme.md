@@ -1,5 +1,5 @@
-# TrainingCTF2020 Writeups
+# TrainingCTF2020 
 
-Writeup dành cho các challenge trong thời gian Training của Gen II CLB ISP.
+Writeup dành cho các challenges trong thời gian Training của Gen II CLB ISP.
 
-# Overview
+
