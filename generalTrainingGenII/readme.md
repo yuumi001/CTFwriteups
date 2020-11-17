@@ -1,8 +1,17 @@
-# TrainingCTF2020 
-
+# TrainingCTF2020
 Writeup dành cho các challenges trong thời gian Training của Gen II CLB ISP.
-
-## 1. Sudoku  
+  
+  
+  
+## Overview
+ | Title | Category  | Flag |
+ | ------ | ------ | ------ |
+ | [Sudoku](#sudoku) | Programming | `ispclub{5ud0ku_puzzl3_15_n0t_345y}` |
+ | [Super panic](#super-panic) | Forensic | `ispclub{h3y_br0_c4lm_d0wn}` |
+  
+  
+  
+# 1. Sudoku  
 [Source code](https://github.com/ispclub/generalTraining/blob/main/ctf/sudoku.cpp)
 
 Đầu tiên mình chạy thử code và nhận được output sau:
@@ -87,3 +96,4 @@ Sau đó thay chuỗi vừa tìm được vào source code challenge ban đ�
 	ispclub{5ud0ku_puzzl3_15_n0t_345y}
 ```
 Flag: `ispclub{5ud0ku_puzzl3_15_n0t_345y}`
+# 2. Super panic
