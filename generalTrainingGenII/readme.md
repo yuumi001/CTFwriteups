@@ -7,7 +7,8 @@ Writeup dành cho các challenges trong thời gian Training của Gen II CLB IS
  | Title | Category  | Flag |
  | ------ | ------ | ------ |
  | [Sudoku](#1-sudoku) | Programming | `ispclub{5ud0ku_puzzl3_15_n0t_345y}` |
- | [Super panic](#2-super-panic) | Forensic | `ispclub{h3y_br0_c4lm_d0wn}` |
+ | [Super panic](#2-super-panic) | Forensic | *not released* |
+ | [pyRev](#3-pyrev) | Programming | *not released* |
   
   
   
@@ -97,4 +98,6 @@ Sau đó thay chuỗi vừa tìm được vào source code challenge ban đ�
 ```
 Flag: `ispclub{5ud0ku_puzzl3_15_n0t_345y}`
 # 2. Super panic
-nothing to show here
+nothing to show here  
+# 3. pyRev
+nothing to show here  
