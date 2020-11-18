@@ -80,7 +80,9 @@ Sau đó thay chuỗi vừa tìm được vào source code challenge ban đ�
 	C:\ISP\source-code\TrainingGII>Sudoku.exe
 	ispclub{d0_y0u_l1k3_5ud0ku?}
 	(Y or N)? ====> Answer: Y
+	
 	ispclub{l3t'5_try_4_puzzl3!}
+	
 	--------------------------
 	| 7 1 9 | 6 5 4 | 2 8 3 |
 	| 4 2 6 | 8 1 3 | 7 5 9 |
