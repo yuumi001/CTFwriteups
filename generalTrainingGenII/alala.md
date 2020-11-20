@@ -69,8 +69,6 @@ Hai hàm trên khá đơn giản nên mình sẽ không phân tích nhiều
 C:\ISP\source-code\TrainingGII>python
 Python 3.7.7
 Type "help", "copyright", "credits" or "license" for more information.
->>> strTest="ABCD"				# test string
->>>
 >>> def ispclub(cre):				# input strTest="ABCD"
 ...     sto=[]					# sto = []
 ...     gre=""      
@@ -81,7 +79,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ...             gre+=i
 ...     return gre
 ...
->>> ispclub(strTest)
+>>> ispclub("ABCD")
 'A1ch4llAB1ch4llBC1ch4llCD1ch4llD'		<-- output string
 >>>
 >>>
@@ -107,7 +105,7 @@ Tiếp đến là hàm `crypt()`
 ...             fusc+=i
 ...     return fusc				# fusc = "696" + "D3C2B1A0"
 ...
->>> crypt(strTest)
+>>> crypt("ABCD")
 '696D3C2B1A0' 	<-- output string
 >>>
 >>>
