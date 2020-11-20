@@ -163,7 +163,7 @@ Bước cuối cùng là ghép các hàm đã tạo ra để tạo file
 
 *các bạn cũng có thể tham khảo file [solve](https://pastebin.com/ncgGjGqz) này*
 ```
-C:\ISP\source-code\TrainingGII> solve.py
+C:\ISP\source-code\TrainingGII>python solve.py
 b'ispclub{5up3r_345Y_cH4ll3ng3}'
 
 C:\ISP\source-code\TrainingGII>
