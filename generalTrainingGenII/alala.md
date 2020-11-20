@@ -69,15 +69,15 @@ Hai hàm trên khá đơn giản nên mình sẽ không phân tích nhiều
 C:\ISP\source-code\TrainingGII>python
 Python 3.7.7
 Type "help", "copyright", "credits" or "license" for more information.
->>> strTest="ABCD"				            # test string
+>>> strTest="ABCD"				# test string
 >>>
->>> def ispclub(cre):			            # input strTest="ABCD"
-...     sto=[]					            # sto = []
+>>> def ispclub(cre):				# input strTest="ABCD"
+...     sto=[]					# sto = []
 ...     gre=""      
-...     for i in cre:				        # với vòng lặp đầu
+...     for i in cre:				# với vòng lặp đầu
 ...             sto.append(i+str(len(i)))	# sto = ['A1']
 ...             sto.append("ch4ll"+i)		# sto = ['A1', 'ch4llA']
-...     for i in sto:				        # sto = ['A1', 'ch4llA', 'B1', 'ch4llB', 'C1', 'ch4llC', 'D1', 'ch4llD']
+...     for i in sto:				# sto = ['A1', 'ch4llA', 'B1', 'ch4llB', 'C1', 'ch4llC', 'D1', 'ch4llD']
 ...             gre+=i
 ...     return gre
 ...
@@ -97,15 +97,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 Tiếp đến là hàm `crypt()`
   
 ```
->>> def crypt(sor):		                        # input "ABCD"
-...     sro=[]			                        # sro = []
+>>> def crypt(sor):				# input "ABCD"
+...     sro=[]					# sro = []
 ...     fusc="696"
 ...     for i in range(len(sor)):
-...             sro.append(sor[i]+str(i))       # sro = ['A0', 'B1', 'C2', 'D3']
-...     sro.reverse()		                    # sro = ['D3', 'C2', 'B1', 'A0']
+...             sro.append(sor[i]+str(i))	# sro = ['A0', 'B1', 'C2', 'D3']
+...     sro.reverse()				# sro = ['D3', 'C2', 'B1', 'A0']
 ...     for i in sro:
 ...             fusc+=i
-...     return fusc		                        # fusc = "696" + "D3C2B1A0"
+...     return fusc				# fusc = "696" + "D3C2B1A0"
 ...
 >>> crypt(strTest)
 '696D3C2B1A0' 	<-- output string
