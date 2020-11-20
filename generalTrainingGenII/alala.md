@@ -159,7 +159,7 @@ Tiếp đến là `obfuscate()`:
 "b'ABCD'"
 >>>
 ```
-Bước cuối cùng là ghép các hàm đã tạo ra để tạo file [solve](htttps://pastebin.com/)  
+Bước cuối cùng là ghép các hàm đã tạo ra để tạo file [solve](htttps://pastebin.com/sss)  
 
 *các bạn cũng có thể tham khảo file [solve](https://pastebin.com/) này*
 ```
