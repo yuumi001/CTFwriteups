@@ -139,7 +139,7 @@ Tiếp đến là `obfuscate()`:
 ...     refus = []
 ...     for i in fusc:
 ...             refus.append(str(i))			
-...             fusc="imustDOTHISCHALL011014"	# lưu giá trị vào refus, fusc="imustDOTHISCHALL011014"
+...             fusc="imustDOTHISCHALL011014"		# lưu giá trị vào refus, fusc="imustDOTHISCHALL011014"
 ...     for i in refus:
 ...             fusc+=i 				# fusc = "imustDOTHISCHALL011014" + "QUJDRA==ispclub6910832"
 ...     return fusc
