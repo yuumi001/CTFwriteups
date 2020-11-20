@@ -159,9 +159,9 @@ Tiếp đến là `obfuscate()`:
 "b'ABCD'"
 >>>
 ```
-Bước cuối cùng là ghép các hàm đã tạo ra để tạo file [solve](htttps://pastebin.com/sss)  
+Bước cuối cùng là ghép các hàm đã tạo ra để tạo file [solve](https://pastebin.com/UFSHV8bd)  
 
-*các bạn cũng có thể tham khảo file [solve](https://pastebin.com/) này*
+*các bạn cũng có thể tham khảo file [solve](https://pastebin.com/ncgGjGqz) này*
 ```
 C:\ISP\source-code\TrainingGII> solve.py
 b'ispclub{5up3r_345Y_cH4ll3ng3}'
