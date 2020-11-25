@@ -156,7 +156,7 @@ def main():
   else:
     punish()
 ```
-Mình đã tạm thời bỏ câu lệnh `if` và chạy thử in ra ouput thì nhận được 1 chuỗi có cấu trúc khá giống với chuỗi được đem so sánh trong câu lệnh `if` vậy nên để có thể lấy được flag thì nhiệm vụ chính là reverse dòng string được đem ra để so sánh trong câu lệnh `if`.
+Mình đã tạm thời bỏ câu lệnh `if` và chạy thử in ra ouput thì nhận được 1 chuỗi có cấu trúc khá giống với string được đem so sánh trong câu lệnh `if` vậy nên để có thể lấy được flag thì nhiệm vụ chính là reverse dòng string được đem ra để so sánh trong câu lệnh `if`.
 Khi xem xét thì ta có thể thấy:
 - `sik1 = prompt()`: Gọi đến 1 hàm input
 - `obfuscate() | crypt() | ispclub()`: các hàm để encode string được input
