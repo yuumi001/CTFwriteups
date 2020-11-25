@@ -144,7 +144,8 @@ Mới đầu nhìn vào mình có hơi rối khi mà nhìn vào. Vậ
 	def main():
 main()
 ```
-Ta có thể thấy `main()` được gọi cuối cùng để thực thi. Hãy cùng phân tích `main()`  
+Ta có thể thấy `main()` được gọi cuối cùng để thực thi. Mình đã tạm thời bỏ câu lệnh `if` và chạy thử in ra ouput thì nhận được 1 chuỗi có cấu trúc khá giống với chuỗi được đem so sánh trong câu lệnh `if` vậy nên để có thể lấy được flag thì nhiệm vụ chính là revese dòng string được đem ra để so sánh trong câu lệnh `i
+f`. Hãy cùng phân tích `main()`:  
 ```
 def main():
   sik1 = prompt()
