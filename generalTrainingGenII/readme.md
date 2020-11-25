@@ -161,7 +161,7 @@ Khi xem xét thì ta có thể thấy:
 - `obfuscate() | crypt() | ispclub()`: các hàm để encode string được input
 - `if (sik=="...")`: So sánh string sau khi encode với 1 string khác, đúng -> `grant()`, sai -> `punish()`
 Okay, giờ đến phân tích sâu vào nào.  
-`grant()` và `punish()` là 2 hàm xuất thông báo khi kiểm tra điều kiện và cái ta muốn là hàm `grant()` được thực thi.  
+`grant()` và `punish()` là 2 hàm xuất thông báo khi kiểm tra điều kiện và cái ta muốn là hàm `grant()` được thực thi, đồng nghĩa với điều kiện kiểm tra trong `ìf` phải .  
   
 Hai hàm trên khá đơn giản nên mình sẽ không phân tích nhiều và tập trung vào các hàm dùng để encode. Và mình đã tách từng hàm và chạy riêng để phân tích vì các hàm này không liên quan đến nhau.  
   
