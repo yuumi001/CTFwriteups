@@ -133,7 +133,7 @@ Vậy là đã tìm thấy phần còn lại của flag: `c4lm_d0wn}`
 Flag: `ispclub{h3y_br0_c4lm_d0wn}`  
 # 3. pyRev
 [Source code]()  
-Mới đầu nhìn vào mình có hơi rối khi mà nhìn vào. Vậy nên mình đã liệt kê các hàm ra và bắt đầu phân tích:
+Mới đầu nhìn vào ta có thẻ thấy được bài này sủ dụng rất nhiều hàm. Vậy nên mình đã liệt kê các hàm ra và bắt đầu phân tích:
 ```
 	def ispclub(cre):
 	def prompt():
@@ -144,7 +144,7 @@ Mới đầu nhìn vào mình có hơi rối khi mà nhìn vào. Vậ
 	def main():
 main()
 ```
-Ta có thể thấy `main()` được gọi cuối cùng để thực thi. Hãy cùng phân tích `main()`:  
+Ta có thể thấy `main()` là hàm được gọi đầu tiên để thực thi. Hãy cùng phân tích `main()`:  
 ```
 def main():
   sik1 = prompt()
@@ -156,7 +156,7 @@ def main():
   else:
     punish()
 ```
-Mình đã tạm thời bỏ câu lệnh `if` và chạy thử in ra ouput thì nhận được 1 chuỗi có cấu trúc khá giống với chuỗi được đem so sánh trong câu lệnh `if` vậy nên để có thể lấy được flag thì nhiệm vụ chính là revese dòng string được đem ra để so sánh trong câu lệnh `if`.
+Mình đã tạm thời bỏ câu lệnh `if` và chạy thử in ra ouput thì nhận được 1 chuỗi có cấu trúc khá giống với chuỗi được đem so sánh trong câu lệnh `if` vậy nên để có thể lấy được flag thì nhiệm vụ chính là reverse dòng string được đem ra để so sánh trong câu lệnh `if`.
 Khi xem xét thì ta có thể thấy:
 - `sik1 = prompt()`: Gọi đến 1 hàm input
 - `obfuscate() | crypt() | ispclub()`: các hàm để encode string được input
@@ -171,47 +171,52 @@ Hai hàm trên khá đơn giản nên mình sẽ không phân tích nhiều
 C:\ISP\source-code\TrainingGII>python
 Python 3.7.7
 Type "help", "copyright", "credits" or "license" for more information.
->>> def ispclub(cre):				# input strTest="ABCD"
-...     sto=[]					# sto = []
+>>> def ispclub(cre):				<-- input "ABCD"
+...     sto=[]					
 ...     gre=""      
-...     for i in cre:				# với vòng lặp đầu
-...             sto.append(i+str(len(i)))	# sto = ['A1']
-...             sto.append("ch4ll"+i)		# sto = ['A1', 'ch4llA']
-...     for i in sto:				# sto = ['A1', 'ch4llA', 'B1', 'ch4llB', 'C1', 'ch4llC', 'D1', 'ch4llD']
+...     for i in cre:				<-- với vòng lặp đầu
+...             sto.append(i+str(len(i)))	<-- sto = ['A1']
+...             sto.append("ch4ll"+i)		<-- sto = ['A1', 'ch4llA']
+...     for i in sto:				<-- sto = ['A1', 'ch4llA', 'B1', 'ch4llB', 'C1', 'ch4llC', 'D1', 'ch4llD']
 ...             gre+=i
 ...     return gre
 ...
->>> ispclub("ABCD")				<-- input "ABCD"
-'A1ch4llAB1ch4llBC1ch4llCD1ch4llD'		<-- output string
+>>> ispclub("ABCD")				<-- input
+'A1ch4llAB1ch4llBC1ch4llCD1ch4llD'		<-- output
 >>>
->>>
->>> # Ta có thể dễ dàng thấy được các ký tự mà ta cần sẽ các nhau 1 khoảng bằng 8. Từ đó mình có đoạn code sau:
+```
+Ta có thể dễ dàng thấy được các ký tự mà ta cần sẽ các nhau 1 khoảng bằng 8. Từ đó mình có đoạn code sau:
+```
 >>> def solve_ispclub(indata):
-...     return indata[::8]			# string[start:end:step]
+...     return indata[::8]			<-- string[start:end:step]
 ...
+>>>
+```
+Kết quả chạy hàm:
+```
 >>> solve_ispclub('A1ch4llAB1ch4llBC1ch4llCD1ch4llD') 	<-- input
 'ABCD'							<-- output
 >>>
 ```  
-
 Tiếp đến là hàm `crypt()`
   
 ```
->>> def crypt(sor):				# input "ABCD"
-...     sro=[]					# sro = []
+>>> def crypt(sor):				<-- input "ABCD"
+...     sro=[]					<-- sro = []
 ...     fusc="696"
 ...     for i in range(len(sor)):
-...             sro.append(sor[i]+str(i))	# sro = ['A0', 'B1', 'C2', 'D3']
-...     sro.reverse()				# sro = ['D3', 'C2', 'B1', 'A0']
+...             sro.append(sor[i]+str(i))	<-- sro = ['A0', 'B1', 'C2', 'D3']
+...     sro.reverse()				<-- sro = ['D3', 'C2', 'B1', 'A0']
 ...     for i in sro:
 ...             fusc+=i
-...     return fusc				# fusc = "696" + "D3C2B1A0"
+...     return fusc				<-- fusc = "696" + "D3C2B1A0"
 ...
 >>> crypt("ABCD")				<-- input "ABCD"
 '696D3C2B1A0' 					<-- output string
 >>>
->>>
->>> # Đầu tiên cần loại bỏ `696` ở đầu string, tiếp đó là đảo lại và lấy các ký tự thứ 2. Từ đó sẽ có:
+```
+Đầu tiên cần loại bỏ `696` ở đầu string, tiếp đó là đảo lại và lấy các ký tự ở vị trí thứ 2. Từ đó sẽ có:
+```
 >>> def solve_crypt(indata):	# indata = "696D3C2B1A0"
 ... 	out=""
 ... 	indata = indata[3:]	# indata = "D3C2B1A0"
@@ -223,6 +228,10 @@ Tiếp đến là hàm `crypt()`
 ... 		cnt+=1
 ... 	return out
 ...
+>>>
+```
+Kết quả chạy hàm:
+```
 >>> solve_crypt('696D3C2B1A0') 	<-- input
 'ABCD'				<-- output
 ```
@@ -247,19 +256,24 @@ Tiếp đến là `obfuscate()`:
 >>> obfuscate(b'ABCD')				<-- input
 'imustDOTHISCHALL011014QUJDRA==ispclub6910832'	<-- output
 >>>
->>>
->>> # Vậy hàm `obfuscate()` chỉ đơn giản là encode base64 và thêm 2 chuỗi vào đầu và cuối. Từ đó hàm solve sẽ là:
+```
+Vậy hàm `obfuscate()` chỉ đơn giản là encode base64 và thêm 2 chuỗi vào đầu và cuối. Từ đó hàm solve sẽ là:
+```
 >>> def solve_obfuscate(indata):
 ...     indata = indata.replace("imustDOTHISCHALL011014",'') 	# indata = "QUJDRA==ispclub6910832"
 ...     indata = indata.replace("ispclub6910832",'')		# indata = "QUJDRA=="
 ...     indata = indata.encode('utf-8')			        # indata = b'QUJDRA=='
 ...     return str(base64.b64decode(indata))			# decode indata và return giá trị 
 ...
->>> solve_obfuscate('imustDOTHISCHALL011014QUJDRA==ispclub6910832')
-"b'ABCD'"
 >>>
 ```
-Bước cuối cùng là ghép các hàm đã tạo ra để tạo file [solve](https://pastebin.com/UFSHV8bd)  
+Kết quả chạy hàm:
+```
+>>> solve_obfuscate('imustDOTHISCHALL011014QUJDRA==ispclub6910832')  <-- input 
+"b'ABCD'"							     <-- output
+>>>
+```
+Bước cuối cùng là ghép các hàm đã tạo ra để tạo file [solve](https://pastebin.com/UFSHV8bd) và chạy với input là string bên trong câu lệnh `ìf`.
 
 *các bạn cũng có thể tham khảo file [solve](https://pastebin.com/ncgGjGqz) này*
 ```
