@@ -180,7 +180,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ...             gre+=i
 ...     return gre
 ...
->>> ispclub("ABCD")
+>>> ispclub("ABCD")				<-- input "ABCD"
 'A1ch4llAB1ch4llBC1ch4llCD1ch4llD'		<-- output string
 >>>
 >>>
@@ -206,8 +206,8 @@ Tiếp đến là hàm `crypt()`
 ...             fusc+=i
 ...     return fusc				# fusc = "696" + "D3C2B1A0"
 ...
->>> crypt("ABCD")
-'696D3C2B1A0' 	<-- output string
+>>> crypt("ABCD")				<-- input "ABCD"
+'696D3C2B1A0' 					<-- output string
 >>>
 >>>
 >>> # Đầu tiên cần loại bỏ `696` ở đầu string, tiếp đó là đảo lại và lấy các ký tự thứ 2. Từ đó sẽ có:
@@ -223,7 +223,7 @@ Tiếp đến là hàm `crypt()`
 ... 	return out
 ...
 >>> solve_crypt('696D3C2B1A0') 	<-- input
-'ABCD'		<-- output
+'ABCD'				<-- output
 ```
 Lý do cần thêm biến `cnt` là vì `crypt()` chạy vòng lặp từ `0` đến `len(sor)` nếu lặp lớn hơn 10 thì `len(sor)` sẽ lớn hơn 1.  
   
@@ -243,8 +243,8 @@ Tiếp đến là `obfuscate()`:
 ...             fusc+=i 				# fusc = "imustDOTHISCHALL011014" + "QUJDRA==ispclub6910832"
 ...     return fusc
 ...
->>> obfuscate(b'ABCD')
-'imustDOTHISCHALL011014QUJDRA==ispclub6910832'
+>>> obfuscate(b'ABCD')				<-- input
+'imustDOTHISCHALL011014QUJDRA==ispclub6910832'	<-- output
 >>>
 >>>
 >>> # Vậy hàm `obfuscate()` chỉ đơn giản là encode base64 và thêm 2 chuỗi vào đầu và cuối. Từ đó hàm solve sẽ là:
